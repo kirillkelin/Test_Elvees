@@ -9,16 +9,17 @@ python -m venv venv
 pip install -r requirements.txt
 ```
 ## Второй этап
-[В папке](https://github.com/kirillkelin/Test_Elvees/tree/main/first_part) находится решение первой части тестового задания
+[В папке](https://github.com/kirillkelin/Test_Elvees/tree/main/first_part) находится решение первой части тестового задания. 
+Функция принимает на вход список репозиториев из [организации](https://github.com/TestTaskGitHub). 
 
 Для запуска bash-скрипта сначала сделайте его исполняемым:
 ```python
 chmod +x repository.sh
 ./repository.sh
 ```
-[В папке](https://github.com/kirillkelin/Test_Elvees/tree/main/second_part) находится решение второй части тестового задания
+[В папке](https://github.com/kirillkelin/Test_Elvees/tree/main/second_part) находится решение второй части тестового задания.
 
-В качестве базы данных использовалась PostgreSQL
+В качестве базы данных использовалась PostgreSQL.
 
 Сначала в pgadmin нужно локально создать БД TestTask. 
 
